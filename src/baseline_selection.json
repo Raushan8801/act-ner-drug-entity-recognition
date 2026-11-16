@@ -1,0 +1,6 @@
+{
+  "selected_baseline": "Linear-chain CRF",
+  "selection_split": "Validation",
+  "primary_metric": "Strict Typed Entity F1",
+  "secondary_metric": "Strict Boundary F1"
+}

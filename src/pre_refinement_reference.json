@@ -1,0 +1,15 @@
+{
+  "source": "Frozen validation artifacts before refined ACT-NER rebuild",
+  "strict_entity_precision": 0.9265802905378876,
+  "strict_entity_recall": 0.8096054888507719,
+  "strict_boundary_f1": 0.8890516294397657,
+  "strict_typed_entity_f1": 0.8641523251556206,
+  "macro_f1": 0.7082018995103572,
+  "brand_f1": 0.5634517766497461,
+  "drug_n_f1": 0.5161290322580646,
+  "drugbank_typed_f1": 0.873462580779654,
+  "medline_typed_f1": 0.7969924812030075,
+  "unseen_typed_f1": 0.7719832508564903,
+  "multi_token_typed_f1": 0.8344007319304666,
+  "best_calibrated_ece": 0.0111326603346763
+}

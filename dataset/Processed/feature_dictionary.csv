@@ -1,0 +1,23 @@
+Feature,Branch,Representation,Fit / Derivation Scope
+Lex exact,Lexical,Float,Training lexicon only
+Lex normalized,Lexical,Float,Training lexicon only
+Lex begin,Lexical,Float,Training lexicon only
+Lex inside,Lexical,Float,Training lexicon only
+Lex end,Lexical,Float,Training lexicon only
+Lex single,Lexical,Float,Training lexicon only
+Lex log frequency,Lexical,Float,Training lexicon only
+Lex ambiguity,Lexical,Float,Training lexicon only
+Lex p(drug),Lexical,Float,Training lexicon only
+Lex p(brand),Lexical,Float,Training lexicon only
+Lex p(group),Lexical,Float,Training lexicon only
+Lex p(drug_n),Lexical,Float,Training lexicon only
+Capitalization,Orthographic categorical,Embedding index,Deterministic token form
+Digit pattern,Orthographic categorical,Embedding index,Deterministic token form
+Hyphenated,Orthographic categorical,Embedding index,Deterministic token form
+Greek symbol,Orthographic categorical,Embedding index,Deterministic token form
+Punctuation,Orthographic categorical,Embedding index,Deterministic token form
+Drug morphology,Orthographic categorical,Embedding index,Deterministic token form
+Prefix bucket,Orthographic categorical,Embedding index,Deterministic token form
+Suffix bucket,Orthographic categorical,Embedding index,Deterministic token form
+Scaled token length,Orthographic numeric,Float,Deterministic token form
+Sentence position,Orthographic numeric,Float,Deterministic token form

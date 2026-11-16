@@ -1,0 +1,11 @@
+{
+  "corpus": "DDIExtraction 2013",
+  "acquired_at": "2026-09-03T00:00:00+05:00",
+  "source_url": "https://raw.githubusercontent.com/isegura/DDICorpus/master/DDICorpus-2013.zip",
+  "source_repository": "https://github.com/isegura/DDICorpus",
+  "source_commit": "819b0fa538ed83ab2a8b4f5417bba3c03249b7f3",
+  "archive": "DDICorpus-2013.zip",
+  "sha256": "87fc63e32ebce20d9841c372e0c594ec72d60882ab5621550ca73c3eaf80ab60",
+  "license": "CC BY-NC 4.0 as stated by the author repository",
+  "immutable": true
+}

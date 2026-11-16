@@ -1,0 +1,8 @@
+{
+  "method": "Platt",
+  "selection_split": "Validation cross-fit",
+  "criteria": [
+    "ECE",
+    "Brier Score"
+  ]
+}

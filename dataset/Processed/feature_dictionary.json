@@ -1,0 +1,48 @@
+{
+  "entity_types": [
+    "drug",
+    "brand",
+    "group",
+    "drug_n"
+  ],
+  "boundary_tags": [
+    "O",
+    "B",
+    "I",
+    "E",
+    "S"
+  ],
+  "typed_tags": [
+    "O",
+    "B-drug",
+    "I-drug",
+    "E-drug",
+    "S-drug",
+    "B-brand",
+    "I-brand",
+    "E-brand",
+    "S-brand",
+    "B-group",
+    "I-group",
+    "E-group",
+    "S-group",
+    "B-drug_n",
+    "I-drug_n",
+    "E-drug_n",
+    "S-drug_n"
+  ],
+  "tokenizer": "NeuML/biomedbert-small",
+  "max_sequence_length": 384,
+  "orthographic_features": [
+    "capitalization",
+    "digits",
+    "hyphenation",
+    "greek_or_latin",
+    "punctuation",
+    "token_length",
+    "prefix_bucket",
+    "suffix_bucket",
+    "drug_morphology",
+    "relative_position"
+  ]
+}

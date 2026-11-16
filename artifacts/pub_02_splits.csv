@@ -1,0 +1,7 @@
+Split,source,Documents
+train,DrugBank,458
+train,MedLine,114
+validation,DrugBank,114
+validation,MedLine,28
+locked_test,DrugBank,54
+locked_test,MedLine,58

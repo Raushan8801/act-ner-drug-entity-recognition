@@ -1,0 +1,31 @@
+name: act-ner
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab
+  - ipykernel
+  - nbformat
+  - nbclient
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - pillow
+  - pyarrow
+  - psutil
+  - lxml
+  - pytorch
+  - pip:
+      - transformers==5.7.0
+      - tokenizers
+      - accelerate
+      - datasets
+      - evaluate
+      - sklearn-crfsuite==0.5.0
+      - python-crfsuite
+
+# Exact versions of the executed environment are listed in requirements-lock.txt.
+# Small biomedical encoder: NeuML/biomedbert-small (22.6M parameters, PubMed-pretrained).

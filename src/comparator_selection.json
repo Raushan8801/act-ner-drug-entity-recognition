@@ -1,0 +1,6 @@
+{
+  "selected_comparator": "Biomedical Transformer",
+  "selection_split": "Validation",
+  "primary_metric": "Strict Typed Entity F1",
+  "biomedical_backbone": "NeuML/biomedbert-small"
+}

@@ -1,0 +1,2 @@
+Model,Sentences,Entities,End-to-end seconds,Expert seconds,Head seconds,Milliseconds per sentence,Milliseconds per entity,Sentences per second,Trainable parameters,Head MiB
+ACT-NER,665,676,8.287964707997162,3.515223499998683,0.8962538330233656,12.463104824055883,12.260302822481009,80.23682815134735,363291,1.3992691040039062

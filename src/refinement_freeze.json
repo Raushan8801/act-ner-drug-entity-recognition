@@ -1,0 +1,29 @@
+{
+  "run": "refinement_20260907",
+  "model": "ACT-NER",
+  "reference_seed": 17,
+  "selected_joint": "Joint-A",
+  "checkpoint": "Models/Proposed/refinement_20260907/fold_-1/final_act-ner/seed_17/model.pt",
+  "checkpoint_sha256": "901b9721e0dadeccc291ca88fdd1a116c730d8a29c7c6abf24000b3564d9cb9b",
+  "calibrator": "Models/Proposed/refinement_20260907/fold_-1/final_act-ner/seed_17/calibrator.joblib",
+  "calibrator_sha256": "f3c837fecf0a953b1a9439cfcbe4afb3278dfe18db47251d94722407ac9d3c64",
+  "threshold": 0.25,
+  "test_role": "Post-hoc Diagnostic Test",
+  "notebook_05_test_opened": false,
+  "all_seeds_completed": true,
+  "reference_router_noncollapsed": true,
+  "source_sha256": "20a434f579620658789923c52406bd99bceb16609bad020146eccb7adf10cb26",
+  "inference_source_sha256": {
+    "refinement_model.py": "20a434f579620658789923c52406bd99bceb16609bad020146eccb7adf10cb26",
+    "prospective_model.py": "bcb69a8da43c4c65b4e61284031f55f53ed8064a025c5aec0c2817d9291abefc",
+    "prospective_calibration.py": "942778df07a08a77b767e7cc8b5e60bbaad8971d7f0546d43d1d12ac6cff1e1e",
+    "act_ner.py": "13c516bff89cea025c49a598bbf8545131c8a8489f272c23fe08434038f93763",
+    "core.py": "007397e0ec76d7bd120ff79039347871bcc03872823fe636efa6b0ed0b2f5eeb",
+    "models.py": "183988b729dc961981cd661c4243a5944bd2f7977999c0cf158183508a6cc7e0",
+    "refinement_analysis.py": "9b71086806caf3fd6171a6cbdcba44eb537b8924eafae7a47e79fea785725c73",
+    "refinement_holdout.py": "c792cf3e7385c9a3d9cfff5e61137e916ff76da957fb7e86eac11a99427099e6",
+    "prospective_data.py": "1158877e9a8d74d7ff8202cfbcbeb69f34a3f4a7950f60f4a1919fa4e945cd40"
+  },
+  "all_final_routers_noncollapsed": true,
+  "all_ablations_completed": true
+}

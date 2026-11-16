@@ -1,0 +1,16 @@
+# System and editor files
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Outputs created when the notebooks are executed
+Models/
+Predictions/
+Reports/
+figures/PNG/
+figures/PDF/
+figures/extended_20261016/
+figures/stacking_20261114/
+dataset/Interim/
+dataset/External/

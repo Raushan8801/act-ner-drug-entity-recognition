@@ -1,0 +1,16 @@
+Population,Source,Documents,Dependency clusters,Sentences,Annotated entities,Discontinuous,Eligible gold
+Train,DrugBank,458,423,4452,10376,24,10352
+Train,MedLine,114,114,1058,1465,5,1460
+Train,All,572,537,5510,11841,29,11812
+Validation,DrugBank,114,112,1223,2553,9,2544
+Validation,MedLine,28,28,243,371,0,371
+Validation,All,142,140,1466,2924,9,2915
+Official DrugNER test,DrugBank,54,53,145,304,1,303
+Official DrugNER test,MedLine,58,58,520,382,1,381
+Official DrugNER test,All,112,111,665,686,2,684
+Reserve (all relation-task test documents),DrugBank,158,152,973,2512,2,2510
+Reserve (all relation-task test documents),MedLine,33,33,326,528,7,521
+Reserve (all relation-task test documents),All,191,185,1299,3040,9,3031
+Reserve (text-disjoint),DrugBank,143,139,848,2197,1,2196
+Reserve (text-disjoint),MedLine,33,33,326,528,7,521
+Reserve (text-disjoint),All,176,172,1174,2725,8,2717

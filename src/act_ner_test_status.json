@@ -1,0 +1,6 @@
+{
+  "historical_locked_test_opened": true,
+  "historical_test_role": "Post-hoc Diagnostic Test",
+  "act_ner_posthoc_test_opened": true,
+  "evaluated_without_refit": true
+}
